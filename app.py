@@ -1,10 +1,11 @@
 from flask import Flask
-import tweepy
-from flask_sqlalchemy import SQLAlchemy
+# import tweepy
+# from flask_sqlalchemy import SQLAlchemy
+
 
 # Instantiate SQL database
 server = Flask(__name__)
-db = SQLAlchemy(server)
+# db = SQLAlchemy(server)
 
 # Instiantiate Flask application
 app = Flask(__name__)

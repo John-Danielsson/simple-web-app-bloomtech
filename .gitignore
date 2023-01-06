@@ -1,0 +1,7 @@
+.env
+TWITTER_API_KEY=WDoz6eBLna3Zvguh6B7Q9AIrr
+TWITTER_API_KEY_SECRET=YhZsk5yV69FFrNjToBfLQtD3BvrifErHVyFiefKN7A6h7dhXUL
+ENV=development
+DATABASE_URI=sqlite:///db.sqlite3
+FLASK_APP=simple_web_app_bloomtech
+# In order for your environment variables to take effect, you'll need to close your command line editor and reopen it.
