@@ -12,4 +12,4 @@ class Tweet(DB.Model):
     text = DB.Column(DB.String, nullable=False)
 
     def __repr__(self):
-        return "<User: {}>".format(self.text)
+        return "<User#{}: {}>".format(self.id, self.text)
